@@ -24,7 +24,7 @@ This is only sort of RESTful - don't @ me!
         {
             "path": "/points",
             "action": "increment",
-            "value": [integer]
+            "value": (integer)
         }
      ]
     ```
@@ -37,10 +37,10 @@ This is only sort of RESTful - don't @ me!
  
     ```json
     {
-         "member": [string],
-         "leaderboard": [string],
-         "points": [integer],
-         "rank": [integer]
+         "member": (string),
+         "leaderboard": (string),
+         "points": (integer),
+         "rank": (integer)
     }
     ```
  
@@ -53,12 +53,12 @@ This is only sort of RESTful - don't @ me!
         {
              "path": "/member/:memberKey/points",
              "action": "increment",
-             "value": [integer]
+             "value": (integer)
         },
         {
              "path": "/member/:memberKey/points",
              "action": "increment",
-             "value": [integer]
+             "value": (integer)
         }
         ...
     ]
@@ -73,12 +73,12 @@ This is only sort of RESTful - don't @ me!
        {
            "path": "/leaderboard/:leaderboardKey/points",
            "action": "increment",
-           "value": [integer]
+           "value": (integer)
        },
        {
            "path": "/leaderboard/:leaderboardKey/points",
            "action": "increment",
-           "value": [integer]
+           "value": (integer)
        }
        ...
     ]
@@ -95,16 +95,16 @@ This is only sort of RESTful - don't @ me!
     ```json
     [
        {
-          "member": [string],
-          "leaderboard": [string],
-          "points": [integer],
-          "rank": [integer]
+          "member": (string),
+          "leaderboard": (string),
+          "points": (integer),
+          "rank": (integer)
        },    
        {
-          "member": [string],
-          "leaderboard": [string],
-          "points": [integer],
-          "rank": [integer]
+          "member": (string),
+          "leaderboard": (string),
+          "points": (integer),
+          "rank": (integer)
        },
        ...
     ]
@@ -119,16 +119,16 @@ This is only sort of RESTful - don't @ me!
     ```json
     [
        {
-          "member": [string],
-          "leaderboard": [string],
-          "points": [integer],
-          "rank": [integer]
+          "member": (string),
+          "leaderboard": (string),
+          "points": (integer),
+          "rank": (integer)
        },
        {
-          "member": [string],
-          "leaderboard": [string],
-          "points": [integer],
-          "rank": [integer]
+          "member": (string),
+          "leaderboard": (string),
+          "points": (integer),
+          "rank": (integer)
        }
        ...
     ]
@@ -141,16 +141,16 @@ This is only sort of RESTful - don't @ me!
    ```json
     [
       {
-        "member": [string],
-        "leaderboard": [string],
-        "points": [integer],
-        "rank": [integer]
+        "member": (string),
+        "leaderboard": (string),
+        "points": (integer),
+        "rank": (integer)
       },    
       {
-        "member": [string],
-        "leaderboard": [string],
-        "points": [integer],
-        "rank": [integer]
+        "member": (string),
+        "leaderboard": (string),
+        "points": (integer),
+        "rank": (integer)
       },
       ...
     ]
