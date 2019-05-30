@@ -28,12 +28,8 @@ This is only sort of RESTful - don't @ me!
         }
      ]
     ```
-    
-    If set to async returns a 202
-    
-    Otherwise returns 201 if anything was created
-    
-    Or a 200 if only an increment
+
+    Returns a 200 response with body:
  
     ```json
     {
