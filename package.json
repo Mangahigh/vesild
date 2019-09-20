@@ -1,6 +1,6 @@
 {
   "name": "vesild",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A very simple leaderboard service.",
   "main": "lib/index.js",
   "preferGlobal": true,
@@ -11,9 +11,9 @@
     "@moebius/http-graceful-shutdown": "^1.1.0",
     "async-redis": "^1.1.7",
     "express": "^4.17.1",
-    "lodash.merge": "^4.6.1",
+    "lodash.merge": "^4.6.2",
     "minimist": "^1.2.0",
-    "path-to-regexp": "^3.0.0",
+    "path-to-regexp": "^3.1.0",
     "redis": "^2.8.0",
     "syslog": "^0.1.1-1"
   },
