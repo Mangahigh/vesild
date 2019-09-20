@@ -150,9 +150,10 @@ This is only sort of RESTful - don't @ me!
       },
       ...
     ]
+   ```
  
   - DELETE /leaderboard/:leaderboardKey/member/:memberKey
   
-  Deletes a value by leaderboard and member keys
+    Deletes a value by leaderboard and member keys
   
-  Returns 204 on success
+    Returns 204 on success

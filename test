@@ -1,21 +1,18 @@
-curl http://vagrant:42093/leaderboard/test
-
+curl http://127.0.0.1:12345/leaderboard/test
 
 curl --request PATCH \
-  --url http://vagrant:42093/leaderboard/test/member/zulu \
+  --url http://127.0.0.1:12345/leaderboard/test/member/zulu \
   --header 'content-type: application/json' \
   --data '[{"path": "/member/zulu/points", "action": "increment", "value": 1}]'
 
 curl --request PATCH \
---url http://vagrant:42093/leaderboard/test \
+--url http://127.0.0.1:12345/leaderboard/test \
 --header 'content-type: application/json' \
 --data '[{"path": "/member/xhosa/points", "action": "increment", "value": 1}]'
 
-
 curl --request PATCH \
---url http://vagrant:42093/member/xhosa \
+--url http://127.0.0.1:12345/member/xhosa \
 --header 'content-type: application/json' \
 --data '[{"path": "/leaderboard/test/points", "action": "increment", "value": 1},{"path": "/leaderboard/test2/points", "action": "increment", "value": 1}]'
-
 
 curl http://127.0.0.1:12345/member/alec
