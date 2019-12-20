@@ -1,6 +1,6 @@
 {
   "name": "vesild",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A very simple leaderboard service.",
   "main": "lib/index.js",
   "preferGlobal": true,
