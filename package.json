@@ -15,7 +15,7 @@
     "minimist": "^1.2.0",
     "path-to-regexp": "^3.1.0",
     "prom-client": "^11.5.3",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "syslog": "^0.1.1-1"
   },
   "bin": {
